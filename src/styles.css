@@ -1,0 +1,28 @@
+.App {
+  position: relative;
+  width: 21.5rem;
+  height: 21.5rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.is-finish .view-board {
+  opacity: 0.55;
+}
+
+.is-finish h1 {
+  opacity: 1;
+  visibility: visible;
+}
+
+h1 {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: 200ms ease;
+}
